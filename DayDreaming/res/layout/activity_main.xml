@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="codehaus.daydreaming.MainActivity" >
+
+    
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fname"
+        android:hint="File Name" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="500px"
+        android:layout_below="@id/fname"
+        android:id="@+id/ftext"
+        android:hint="File Text" />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ftext"
+        android:id="@+id/btnwrite"
+        android:text="Write File" />
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnwrite"
+        android:id="@+id/fnameread"
+        android:hint="File Name" />
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fnameread"
+        android:id="@+id/btnread"
+        android:text="Read File" />
+       <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnread"
+        android:id="@+id/filecon" />
+       
+       <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filecon"
+        android:id="@+id/btnall"
+        android:text="All Files" />
+ 
+       
+
+</RelativeLayout>
+
